@@ -1,3 +1,9 @@
+PATH
+  remote: ../seedbank
+  specs:
+    seedbank (0.6.0)
+      rake (>= 10.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -154,8 +160,6 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    seedbank (0.5.0)
-      rake (>= 10.0)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -211,7 +215,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.5)
   sass-rails (>= 6)
-  seedbank
+  seedbank!
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
