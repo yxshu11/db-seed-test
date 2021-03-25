@@ -1,11 +1,11 @@
-after "common:countries" do
-  puts 'Done seeding common countries for staging'
+after "shared:countries" do
+  puts 'Done seeding shared countries for staging'
 end
 
-after "common:users" do
-  puts 'Done seeding common users for staging'
+after "shared:users" do
+  puts 'Done seeding shared users for staging'
 end
 
-after "staging:common:products" do
+after "staging:products" do
   puts 'Done seeding common Brands and Products for staging'
 end

@@ -2,4 +2,4 @@
   Brand.find_or_create_by!(name: brand)
 end
 
-puts 'Seeding Development Common brands'
+puts 'Seeding Development Shared brands'

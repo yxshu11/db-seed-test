@@ -5,4 +5,4 @@
   User.find_or_create_by!(first_name: first_name, last_name: last_name)
 end
 
-puts 'Seeding Common Users'
+puts 'Seeding Shared Users'

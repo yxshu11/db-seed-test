@@ -2,4 +2,4 @@
   Country.find_or_create_by!(name: country)
 end
 
-puts 'Seeding Common Countries'
+puts 'Seeding Shared Countries'

@@ -4,4 +4,4 @@ after 'staging:brands:common' do
   end
 end
 
-puts 'Seeding Staging Common products'
+puts 'Seeding Staging Shared products'

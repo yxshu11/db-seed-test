@@ -4,4 +4,4 @@ after 'development:brands:common' do
   end
 end
 
-puts 'Seeding Development Common products'
+puts 'Seeding Development Shared products'
