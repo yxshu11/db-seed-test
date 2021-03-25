@@ -3,3 +3,5 @@ after 'development:brands:common' do
     Product.find_or_create_by!(name: product, price: 50.0, brand_id: Brand.first.id)
   end
 end
+
+puts 'Seeding Common products'

@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 # gem 'seedbank'
 gem 'seedbank', path: '../seedbank'
+# gem 'seedbank', git: 'https://github.com/ej2015/seedbank.git', branch: 'multi-level-directories'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
