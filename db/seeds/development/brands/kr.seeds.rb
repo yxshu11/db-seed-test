@@ -1,5 +1,5 @@
-['kr brand 1', 'kr brand 2', 'kr brand 3'].each do |brand|
+['Dev kr brand 1', 'Dev kr brand 2', 'Dev kr brand 3'].each do |brand|
   Brand.find_or_create_by!(name: brand)
 end
 
-puts 'Seeding KR brands'
+puts 'Seeding Development KR brands'
