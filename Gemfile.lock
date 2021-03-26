@@ -1,7 +1,7 @@
 PATH
   remote: ../seedbank
   specs:
-    seedbank (0.6.0)
+    seedbank (0.9.1)
       rake (>= 10.0)
 
 GEM
